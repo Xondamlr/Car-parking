@@ -1,0 +1,71 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.body {
+    margin: auto;
+}
+
+.park {
+    width: 500px;
+    height: 201px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: darkgray;
+    position: relative;
+
+}
+
+.ent {
+    width: 60px;
+    height: 35px;
+    background-color: rgb(24, 224, 41);
+    cursor: pointer;
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.ext {
+    width: 60px;
+    height: 35px;
+    background-color: rgb(255, 21, 0);
+    cursor: pointer;
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.img {
+    width: 85px;
+    height: 91px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 6%;
+    right: -40%;
+    transition: 1s;
+}
+
+.sum {
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 37%;
+    text-align: center;
+}
+.pul{
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    top: -8%;
+    left: 19%;
+}
